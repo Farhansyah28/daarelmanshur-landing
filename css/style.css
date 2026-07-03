@@ -788,6 +788,14 @@ h2 {
         height: 56px;
         font-size: 1.75rem;
     }
+
+    .about-image {
+        height: 300px;
+    }
+    
+    .about-container {
+        gap: 32px;
+    }
 }
 
 @media (max-width: 480px) {
