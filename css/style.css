@@ -361,6 +361,7 @@ h2 {
 .about-image {
     width: 100%;
     height: 600px;
+    /* GANTI FOTO HALAMAN PROFIL DI SINI (URL GAMBAR) */
     background: url('https://images.unsplash.com/photo-1564769625905-50e93615e769?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80') center/cover;
     border-radius: var(--radius-xl);
     box-shadow: 0 24px 48px rgba(0,0,0,0.08);
