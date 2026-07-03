@@ -477,6 +477,22 @@ h2 {
     transform: rotate(-10deg) scale(1.1);
 }
 
+.bento-card.has-image {
+    background-size: cover;
+    background-position: center;
+    border: none;
+    color: white;
+}
+
+.bento-card.has-image h4, 
+.bento-card.has-image p {
+    color: white;
+}
+
+.bento-card.has-image .bento-decor {
+    opacity: 0.2;
+}
+
 .k-icon {
     width: 64px;
     height: 64px;
