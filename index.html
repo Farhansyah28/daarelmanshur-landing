@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pondok Pesantren Daar el Manshur Depok</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            50: '#f0fdf4',
+                            100: '#dcfce7',
+                            500: '#22c55e',
+                            600: '#16a34a',
+                            700: '#15803d',
+                            800: '#166534',
+                            900: '#14532d',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body class="bg-brand-50 text-gray-800 font-sans antialiased">
+
+    <!-- Navbar -->
+    <nav class="bg-white shadow-md fixed w-full z-50 top-0">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20">
+                <div class="flex items-center">
+                    <!-- Ganti src dengan logo pesantren yang asli -->
+                    <div class="flex-shrink-0 flex items-center gap-3">
+                        <div class="w-10 h-10 bg-brand-600 rounded-full flex items-center justify-center text-white font-bold text-xl">
+                            DM
+                        </div>
+                        <span class="font-bold text-2xl text-brand-800">Daar el Manshur</span>
+                    </div>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#beranda" class="text-gray-600 hover:text-brand-600 px-3 py-2 rounded-md font-medium transition-colors">Beranda</a>
+                    <a href="#profil" class="text-gray-600 hover:text-brand-600 px-3 py-2 rounded-md font-medium transition-colors">Profil</a>
+                    <a href="#program" class="text-gray-600 hover:text-brand-600 px-3 py-2 rounded-md font-medium transition-colors">Program</a>
+                    <a href="#fasilitas" class="text-gray-600 hover:text-brand-600 px-3 py-2 rounded-md font-medium transition-colors">Fasilitas</a>
+                    <a href="#kontak" class="bg-brand-600 text-white px-5 py-2 rounded-full font-medium hover:bg-brand-700 transition-colors shadow-lg">Pendaftaran</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="beranda" class="relative pt-20 pb-32 flex items-center justify-center min-h-screen">
+        <div class="absolute inset-0 bg-brand-900 opacity-90 z-0"></div>
+        <!-- Tambahkan URL gambar background pesantren di bawah ini pada style -->
+        <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1584551246679-0daf3d275d0f?auto=format&fit=crop&q=80')] bg-cover bg-center mix-blend-overlay z-0"></div>
+        
+        <div class="relative z-10 text-center px-4 max-w-4xl mx-auto mt-16">
+            <span class="text-brand-100 font-semibold tracking-wider uppercase text-sm mb-4 block">Selamat Datang di</span>
+            <h1 class="text-4xl md:text-6xl font-extrabold text-white mb-6 leading-tight">
+                Pondok Pesantren <br/> <span class="text-brand-500">Daar el Manshur</span> Depok
+            </h1>
+            <p class="text-lg md:text-xl text-gray-200 mb-10 leading-relaxed">
+                Lembaga pendidikan Islam yang berdedikasi mencetak generasi Qur'ani, berakhlakul karimah, mandiri, dan siap menghadapi tantangan global.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="#profil" class="bg-brand-600 hover:bg-brand-500 text-white font-bold py-3 px-8 rounded-full shadow-lg transition-all duration-300 transform hover:-translate-y-1">
+                    Pelajari Lebih Lanjut
+                </a>
+                <a href="#kontak" class="bg-white hover:bg-gray-50 text-brand-800 font-bold py-3 px-8 rounded-full shadow-lg transition-all duration-300 transform hover:-translate-y-1">
+                    Info Pendaftaran
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Profil Section -->
+    <section id="profil" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-brand-800 mb-4">Profil Pesantren</h2>
+                <div class="h-1 w-20 bg-brand-500 mx-auto rounded"></div>
+            </div>
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h3 class="text-2xl font-semibold text-gray-800 mb-4">Membangun Karakter Melalui Pendidikan Islam Terpadu</h3>
+                    <p class="text-gray-600 mb-4 leading-relaxed">
+                        Pondok Pesantren Daar el Manshur yang berlokasi di Depok hadir sebagai wadah pendidikan yang mengintegrasikan keilmuan agama (Tafaqquh Fiddin) dan ilmu pengetahuan umum. Kami berkomitmen untuk menyediakan lingkungan yang kondusif bagi santri untuk menghafal Al-Qur'an dan mengkaji kitab-kitab turats.
+                    </p>
+                    <p class="text-gray-600 leading-relaxed">
+                        Dengan tenaga pengajar yang kompeten dan fasilitas yang terus dikembangkan, kami memastikan setiap santri tidak hanya unggul secara akademis, tetapi juga memiliki adab dan kemandirian yang tinggi.
+                    </p>
+                </div>
+                <div class="grid grid-cols-2 gap-4">
+                    <div class="bg-brand-50 p-6 rounded-xl text-center border border-brand-100 shadow-sm">
+                        <i class="fas fa-book-quran text-4xl text-brand-600 mb-3"></i>
+                        <h4 class="font-bold text-brand-800">Tahfidz</h4>
+                        <p class="text-sm text-gray-500 mt-1">Program hafalan bersanad</p>
+                    </div>
+                    <div class="bg-brand-50 p-6 rounded-xl text-center border border-brand-100 shadow-sm">
+                        <i class="fas fa-mosque text-4xl text-brand-600 mb-3"></i>
+                        <h4 class="font-bold text-brand-800">Kitab Kuning</h4>
+                        <p class="text-sm text-gray-500 mt-1">Kajian literatur klasik</p>
+                    </div>
+                    <div class="bg-brand-50 p-6 rounded-xl text-center border border-brand-100 shadow-sm">
+                        <i class="fas fa-graduation-cap text-4xl text-brand-600 mb-3"></i>
+                        <h4 class="font-bold text-brand-800">Formal</h4>
+                        <p class="text-sm text-gray-500 mt-1">Ijazah negara & madrasah</p>
+                    </div>
+                    <div class="bg-brand-50 p-6 rounded-xl text-center border border-brand-100 shadow-sm">
+                        <i class="fas fa-users text-4xl text-brand-600 mb-3"></i>
+                        <h4 class="font-bold text-brand-800">Kemandirian</h4>
+                        <p class="text-sm text-gray-500 mt-1">Organisasi & kepemimpinan</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Program Section -->
+    <section id="program" class="py-20 bg-brand-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-brand-800 mb-4">Program Pendidikan</h2>
+                <div class="h-1 w-20 bg-brand-500 mx-auto rounded"></div>
+                <p class="mt-4 text-gray-600 max-w-2xl mx-auto">Kurikulum berjenjang yang dirancang untuk mengoptimalkan potensi santri di segala bidang.</p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Program 1 -->
+                <div class="bg-white rounded-2xl shadow-md hover:shadow-xl transition-shadow overflow-hidden border border-gray-100">
+                    <div class="h-48 bg-brand-200 relative">
+                        <div class="absolute inset-0 flex items-center justify-center">
+                            <i class="fas fa-quran text-6xl text-brand-600 opacity-50"></i>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-brand-800 mb-2">Pendidikan Diniyah</h3>
+                        <p class="text-gray-600 text-sm mb-4">Fokus pada pendalaman aqidah, akhlak, fiqih, dan hafalan Al-Qur'an (Tahfidz). Menerapkan metode pembelajaran tradisional dan modern.</p>
+                    </div>
+                </div>
+                <!-- Program 2 -->
+                <div class="bg-white rounded-2xl shadow-md hover:shadow-xl transition-shadow overflow-hidden border border-gray-100">
+                    <div class="h-48 bg-brand-200 relative">
+                        <div class="absolute inset-0 flex items-center justify-center">
+                            <i class="fas fa-school text-6xl text-brand-600 opacity-50"></i>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-brand-800 mb-2">Pendidikan Formal</h3>
+                        <p class="text-gray-600 text-sm mb-4">Tersedia jenjang pendidikan formal tingkat menengah (SMP/MTs) dan atas (SMA/MA) yang terakreditasi dan mengikuti kurikulum nasional.</p>
+                    </div>
+                </div>
+                <!-- Program 3 -->
+                <div class="bg-white rounded-2xl shadow-md hover:shadow-xl transition-shadow overflow-hidden border border-gray-100">
+                    <div class="h-48 bg-brand-200 relative">
+                        <div class="absolute inset-0 flex items-center justify-center">
+                            <i class="fas fa-laptop-code text-6xl text-brand-600 opacity-50"></i>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-brand-800 mb-2">Ekstrakurikuler & Skill</h3>
+                        <p class="text-gray-600 text-sm mb-4">Pelatihan bahasa Arab dan Inggris, keorganisasian, muhadharah (public speaking), hingga dasar-dasar teknologi informasi untuk bekal masa depan.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fasilitas Section -->
+    <section id="fasilitas" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-brand-800 mb-4">Fasilitas Pesantren</h2>
+                <div class="h-1 w-20 bg-brand-500 mx-auto rounded"></div>
+                <p class="mt-4 text-gray-600 max-w-2xl mx-auto">Kami menyediakan infrastruktur modern yang mendukung kenyamanan belajar dan keamanan santri.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="flex items-start gap-4 p-4 border border-gray-100 rounded-xl hover:bg-brand-50 transition">
+                    <div class="w-12 h-12 bg-brand-100 rounded-lg flex items-center justify-center shrink-0">
+                        <i class="fas fa-mosque text-brand-600 text-xl"></i>
+                    </div>
+                    <div>
+                        <h4 class="font-bold text-gray-800">Masjid Utama</h4>
+                        <p class="text-sm text-gray-500">Pusat ibadah dan kajian kitab harian yang luas dan nyaman.</p>
+                    </div>
+                </div>
+                <div class="flex items-start gap-4 p-4 border border-gray-100 rounded-xl hover:bg-brand-50 transition">
+                    <div class="w-12 h-12 bg-brand-100 rounded-lg flex items-center justify-center shrink-0">
+                        <i class="fas fa-bed text-brand-600 text-xl"></i>
+                    </div>
+                    <div>
+                        <h4 class="font-bold text-gray-800">Asrama Santri</h4>
+                        <p class="text-sm text-gray-500">Kamar asrama yang tertata rapi, bersih, dengan pengawasan musyrif 24 jam.</p>
+                    </div>
+                </div>
+                <div class="flex items-start gap-4 p-4 border border-gray-100 rounded-xl hover:bg-brand-50 transition">
+                    <div class="w-12 h-12 bg-brand-100 rounded-lg flex items-center justify-center shrink-0">
+                        <i class="fas fa-chalkboard-teacher text-brand-600 text-xl"></i>
+                    </div>
+                    <div>
+                        <h4 class="font-bold text-gray-800">Ruang Kelas</h4>
+                        <p class="text-sm text-gray-500">Fasilitas belajar formal yang representatif dan mendukung diskusi interaktif.</p>
+                    </div>
+                </div>
+                <div class="flex items-start gap-4 p-4 border border-gray-100 rounded-xl hover:bg-brand-50 transition">
+                    <div class="w-12 h-12 bg-brand-100 rounded-lg flex items-center justify-center shrink-0">
+                        <i class="fas fa-credit-card text-brand-600 text-xl"></i>
+                    </div>
+                    <div>
+                        <h4 class="font-bold text-gray-800">Sistem Pembayaran SPP</h4>
+                        <p class="text-sm text-gray-500">Manajemen administrasi berbasis web untuk pelacakan dan kemudahan transaksi tagihan pesantren.</p>
+                    </div>
+                </div>
+                <div class="flex items-start gap-4 p-4 border border-gray-100 rounded-xl hover:bg-brand-50 transition">
+                    <div class="w-12 h-12 bg-brand-100 rounded-lg flex items-center justify-center shrink-0">
+                        <i class="fas fa-store text-brand-600 text-xl"></i>
+                    </div>
+                    <div>
+                        <h4 class="font-bold text-gray-800">Aplikasi Kantin & Tabungan</h4>
+                        <p class="text-sm text-gray-500">Sistem terintegrasi satu pintu untuk uang saku santri yang menjamin keamanan finansial.</p>
+                    </div>
+                </div>
+                <div class="flex items-start gap-4 p-4 border border-gray-100 rounded-xl hover:bg-brand-50 transition">
+                    <div class="w-12 h-12 bg-brand-100 rounded-lg flex items-center justify-center shrink-0">
+                        <i class="fas fa-book-open text-brand-600 text-xl"></i>
+                    </div>
+                    <div>
+                        <h4 class="font-bold text-gray-800">Perpustakaan</h4>
+                        <p class="text-sm text-gray-500">Koleksi literatur Islam klasik dan buku pengetahuan umum yang lengkap.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kontak & CTA Section -->
+    <section id="kontak" class="py-20 bg-brand-700 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-3xl font-bold mb-4">Penerimaan Santri Baru Telah Dibuka</h2>
+                    <p class="text-brand-100 mb-8 text-lg">
+                        Mari bergabung bersama keluarga besar Pondok Pesantren Daar el Manshur. Daftarkan putra-putri Anda untuk mendapatkan pendidikan Islam yang berkualitas.
+                    </p>
+                    <div class="space-y-4">
+                        <div class="flex items-center gap-4">
+                            <i class="fas fa-map-marker-alt text-2xl text-brand-300 w-8 text-center"></i>
+                            <span>Jl. Raya Depok No. XX, Kota Depok, Jawa Barat (Sesuaikan Alamat Lengkap)</span>
+                        </div>
+                        <div class="flex items-center gap-4">
+                            <i class="fas fa-phone text-2xl text-brand-300 w-8 text-center"></i>
+                            <span>+62 812-XXXX-XXXX (Panitia PSB)</span>
+                        </div>
+                        <div class="flex items-center gap-4">
+                            <i class="fas fa-envelope text-2xl text-brand-300 w-8 text-center"></i>
+                            <span>info@daarelmanshur.ponpes.id</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white rounded-2xl p-8 text-gray-800 shadow-2xl">
+                    <h3 class="text-2xl font-bold text-brand-800 mb-6 text-center">Formulir Informasi</h3>
+                    <form class="space-y-4">
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-1">Nama Lengkap Pendaftar</label>
+                            <input type="text" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-brand-500 focus:border-brand-500 outline-none" placeholder="Masukkan nama">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-1">Nomor WhatsApp</label>
+                            <input type="tel" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-brand-500 focus:border-brand-500 outline-none" placeholder="08xx-xxxx-xxxx">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-1">Pesan / Pertanyaan</label>
+                            <textarea rows="3" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-brand-500 focus:border-brand-500 outline-none" placeholder="Tuliskan pertanyaan Anda di sini..."></textarea>
+                        </div>
+                        <button type="button" class="w-full bg-brand-600 hover:bg-brand-700 text-white font-bold py-3 px-4 rounded-lg transition-colors">
+                            Kirim Pesan via WhatsApp
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-brand-900 text-brand-100 py-12 border-t border-brand-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-6">
+            <div class="flex items-center gap-3">
+                <div class="w-8 h-8 bg-brand-700 rounded-full flex items-center justify-center text-white font-bold text-sm">
+                    DM
+                </div>
+                <span class="font-bold text-xl text-white">Daar el Manshur</span>
+            </div>
+            <div class="text-sm text-center md:text-left text-brand-300">
+                &copy; 2026 Pondok Pesantren Daar el Manshur Depok. All rights reserved.
+            </div>
+            <div class="flex gap-4">
+                <a href="#" class="w-10 h-10 rounded-full bg-brand-800 flex items-center justify-center hover:bg-brand-600 transition">
+                    <i class="fab fa-facebook-f text-white"></i>
+                </a>
+                <a href="#" class="w-10 h-10 rounded-full bg-brand-800 flex items-center justify-center hover:bg-brand-600 transition">
+                    <i class="fab fa-instagram text-white"></i>
+                </a>
+                <a href="#" class="w-10 h-10 rounded-full bg-brand-800 flex items-center justify-center hover:bg-brand-600 transition">
+                    <i class="fab fa-youtube text-white"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
